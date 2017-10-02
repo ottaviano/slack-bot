@@ -1,0 +1,8 @@
+urls:
+  - http://example-1.com
+  - http://example-2.com
+
+slack:
+  channels: channelId
+  bot:
+    token: qwertyuiop
