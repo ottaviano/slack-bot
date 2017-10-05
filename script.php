@@ -22,7 +22,7 @@ if (!empty($data)) {
     $httpClient->request('POST', 'https://slack.com/api/chat.postMessage', [
         RequestOptions::FORM_PARAMS => [
             'token' => $container['parameters']['slack']['bot']['token'],
-            'channel' => $container['parameters']['slack']['channel'],
+            'channel' => 'general',
             'text' => $data[0],
         ],
     ]);
